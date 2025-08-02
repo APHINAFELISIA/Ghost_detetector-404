@@ -15,7 +15,7 @@ A fake ghost scanner app that always detects a ghost... until you try to see it.
 - Member 2: [Ansu Mariam Thomas] - [AISAT]
 
 ### Project Description
-Ghost_Detector-404 is a hilariously spooky, 100% fake ghost scanner app made using HTML, CSS, and JavaScript. Every time you scan your surroundings, it always finds a ghost — with a random mood like:
+Ghost_Detector-404 is a hilariously spooky, made using HTML, CSS, and JavaScript. Every time you scan your surroundings, it always finds a ghost — with a random mood like:
 
 “Ghost Mood Report: Watching memes. Do not disturb.”
 
