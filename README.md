@@ -61,39 +61,29 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-Project build 
-*How we build project using VS Code
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
+project build 1
+*java script
+Project build 2
+*how we build our project in javscript
+project build 3
+*moods that we given to our ghost
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+1)GHOST GIF (BACKGROUND) - ghostgif
+2)GHOST IMAGES -3 NO.S - g1,g2,g3
+3)GHOST SOUND 3 NO.S - boome,giggle,howl
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+Photos of us setting up the spooky vibe with dark room and GIF backgrounds.
+Ghost_Detector-404 running on a browser
+
 
 ![Final](Add photo of final product here)
 *Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+DEMO VIDEO
+*how our project works
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - [Name 1]: [Specific contributions]
