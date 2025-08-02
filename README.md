@@ -11,30 +11,43 @@ A fake ghost scanner app that always detects a ghost... until you try to see it.
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
+- Team Lead: [Aphina Felisia] - [AISAT]
+- Member 2: [Ansu Mariam Thomas] - [AISAT]
 
 ### Project Description
-A fake ghost scanner app that always detects a ghost... until you try to see it.  This project is a fun, spooky, and completely useless ghost detector built with HTML, CSS, and JavaScript. Every scan "detects" a ghost with a random mood like:  Ghost Mood Report: Watching memes. Do not disturb.
+Ghost_Detector-404 is a hilariously spooky, 100% fake ghost scanner app made using HTML, CSS, and JavaScript. Every time you scan your surroundings, it always finds a ghost — with a random mood like:
+
+“Ghost Mood Report: Watching memes. Do not disturb.”
+
+But just when you try to see it — poof! — the ghost disappears. 👻💨
+Built to entertain, confuse, and cause mild panic.
+
+
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+What if ghosts were real… and really into memes and chilling?
+But how do you know if there's a ghost around you, quietly vibing in your room?
+
+
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Introducing Ghost_Detector-404 – the world's most unreliable and dramatic ghost scanner.
+Every scan guarantees a ghost (because why not?) and a mysterious ghost mood.
+Wanna catch it? Sorry, it vanishes when you try to look. Too bad.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+Languages Used:
+HTML
+CSS
+JavaScript
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+Libraries/Tools Used:
+Google Fonts (Creepster)
+Custom JavaScript logic
+Sound effects (mp3 for eerie vibes)
+GIFs for background animation
 
 ### Implementation
 For Software:
@@ -48,14 +61,8 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+Project build 
+*How we build project using VS Code
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
