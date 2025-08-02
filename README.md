@@ -76,8 +76,20 @@ Photos of us setting up the spooky vibe with dark room and GIF backgrounds.
 Ghost_Detector-404 running on a browser
 
 
-![Final](Add photo of final product here)
-*Explain the final build*
+PROJECT PICTURE
+It shows how our project is
+Ghost_Detector-404 is a spooky, silly, and completely useless (but hilarious) web app that pretends to scan for ghosts around you. Built using HTML, CSS, and JavaScript, it always detects a ghost—but just when you try to actually see the ghost, it vanishes into thin air. 🫣
+
+Each scan gives you a random ghost mood report, like:
+
+“Ghost Mood: Watching memes. Do not disturb.”
+“Ghost Mood: Plotting to flip your pillow to the cold side.”
+
+The app features a haunted interface, creepy sound effects, ghostly GIFs, and surprise jump scares to keep users entertained (and mildly terrified). It's a fun take on over-the-top "ghost detector" apps—designed to entertain, confuse, and bring out the Halloween vibes any time of year.
+
+This project is our tribute to useless but memorable apps that make people laugh, scream, or both.
+
+
 
 ### Project Demo
 # Video
@@ -86,9 +98,8 @@ DEMO VIDEO
 
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+Aphina felisia
+Ansu Mariam Thomas
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
