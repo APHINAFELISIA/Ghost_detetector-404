@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ghost Detector-404</title>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Creepster', cursive;
+            background: url('ghostgif.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #ff0033;
+            overflow-x: hidden;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 10em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px black;
+        }
+
+        h2 {
+            font-size: 5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px black;
+        }
+
+        #scanBtn, .soundBtn {
+            font-size: 3em;
+            padding: 15px 30px;
+            background-color: #330000;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 10px;
+            box-shadow: 0 0 20px #ff0033;
+        }
+
+        .moodBox {
+            margin-top: 20px;
+            font-size: 3em;
+            background: rgba(0,0,0,0.6);
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+            color: #ffcccc;
+        }
+
+        .ghostPopUp {
+            position: fixed;
+            top: 20%;
+            left: 30%;
+            background: white;
+            border: 5px solid red;
+            padding: 20px;
+            display: none;
+            z-index: 10;
+            box-shadow: 0 0 20px red;
+            animation: glitch 0.2s steps(2, end) 5;
+        }
+
+            .ghostPopUp img {
+                width: 250px;
+            }
+
+        @keyframes glitch {
+            0% {
+                transform: translate(2px, -2px);
+            }
+
+            20% {
+                transform: translate(-2px, 2px);
+            }
+
+            40% {
+                transform: translate(2px, 2px);
+            }
+
+            60% {
+                transform: translate(-2px, -2px);
+            }
+
+            80% {
+                transform: translate(2px, -2px);
+            }
+
+            100% {
+                transform: translate(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>👻 Ghost Detector 404</h1>
+        <button id="scanBtn">Scan Room</button>
+        <div class="moodBox" id="ghostMood"></div>
+
+        <h2>🔊 Ghost Soundboard</h2>
+        <button class="soundBtn" onclick="playSound('boo')">👻 Boo Me!</button>
+        <button class="soundBtn" onclick="playSound('giggle')">💀 Ghost Giggle</button>
+        <button class="soundBtn" onclick="playSound('howl')">🌫️ Haunted Howl</button>
+    </div>
+
+    <!-- Sounds -->
+    <audio id="boo" src="boome.mp3"></audio>
+    <audio id="giggle" src="giggle.mp3"></audio>
+    <audio id="howl" src="howl.mp3"></audio>
+
+    <script>
+        const moods = [
+            "👻 Status: Watching memes. Do not disturb.",
+            "👻 Status: Practicing invisibility.",
+            "👻 Status: Ghosting my ex. Literally.",
+            "👻 Status: Playing hide and shriek.",
+            "👻 Status: Haunting in low power mode.",
+            "👻 Status: Attending Ghostflix binge night.",
+            "👻 Status: Just chilling in the afterlife.",
+            "👻 Status: Summoning snacks from the beyond.",
+            "👻 Status: Practicing my ghostly dance moves.",
+            "👻 Status: Just here for the boos.",
+            "👻 Status: Trying to scare up some fun.",
+            "👻 Status: Floating through life, one scare at a time.",
+            "👻 Status: Living for the thrill of the haunt.",
+            "👻 Status: Just another day in the spectral realm.",
+        ];
+
+        function showGhostPopup() {
+            const ghostImages = ["g1.png","g2.png","g3.png"];
+            const selectedImg = ghostImages[Math.floor(Math.random() * ghostImages.length)];
+
+            const ghost = document.createElement("img");
+            ghost.src = selectedImg;
+            ghost.style.position = "fixed";
+            ghost.style.top = Math.random() * 80 + "%";
+            ghost.style.left = Math.random() * 80 + "%";
+            ghost.style.width = "300px";
+            ghost.style.zIndex = 9999;
+            ghost.style.transition = "opacity 2s";
+            document.body.appendChild(ghost);
+
+            setTimeout(() => {
+                ghost.style.opacity = 0;
+                setTimeout(() => ghost.remove(), 2000);
+            }, 1000);
+        }
+
+        const scanBtn = document.getElementById("scanBtn");
+        const ghostMood = document.getElementById("ghostMood");
+
+        scanBtn.addEventListener("click", () => {
+            const mood = moods[Math.floor(Math.random() * moods.length)];
+            ghostMood.textContent = mood;
+            showGhostPopup();
+        });
+
+        function playSound(id) {
+            const sound = document.getElementById(id);
+            sound.currentTime = 0;
+            sound.play();
+        }
+    </script>
+</body>
+</html>
