@@ -50,15 +50,20 @@ Sound effects (mp3 for eerie vibes)
 GIFs for background animation
 
 ### Implementation
-For Software:
+For Software:VS CODE
+
 # Installation
-[commands]
+git clone https://github.com/aphinafelisia/Ghost_Detector-404.git
+cd Ghost_Detector-404
 
 # Run
-[commands]
+OPEN main.html
 
 ### Project Documentation
 For Software:
+Shows the scan interface with glowing green radar and “Scan for Ghosts” button.
+Displays ghost mood report and eerie ghost presence detected message.
+Ghost disappears just when user tries to see it – shows warning overlay and spooky sound trigger.
 
 # Screenshots (Add at least 3)
 project build 1
